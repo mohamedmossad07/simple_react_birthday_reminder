@@ -6,7 +6,7 @@ const List = ({ people }) => {
   return (
     <>
       {people.map((person) => {
-        const { id, name, age, image } = person;
+        const { name, age, image } = person;
         return (
           <article className="person">
             <img src={image} />
